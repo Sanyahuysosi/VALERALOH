@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Oxanium', serif;
+  color: #ffffff;
+  
+}
+.top-background{
+  background-image: url(https://cdn.pixabay.com/photo/2014/05/02/21/50/home-office-336377_1280.jpg);
+  height: 1002px;
+  width: 1440px;
+  background-size: cover;
+}
+.volk{
+  width: 1440px;
+  height: 98px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: grid;
+  grid-template-columns: 0.1fr 3fr 0.15fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  
+  
+}
+.lolka{
+  color: aliceblue;
+  justify-self: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  grid-column: 2;
+  grid-row: 2;
+  line-height: 28px;
+  text-decoration: none;
+  margin-left: 28px;
+  
+  
+
+}
+#home{
+  color:#EB1919;
+  font-weight: normal;
+  font-size: 38px;
+
+}
+.bacground_content{
+  width: 1440px;
+  height: 904px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  display: grid;
+  font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+grid-template-columns: 1.03fr 2fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+
+}
+.page_text{
+  grid-column: 2;
+  grid-row: 2;
+  align-self:flex-start;  
+
+}
+#future{
+  color: #DBFA1D;
+}
+#under_text{
+  font-size: 30px;
+}
+
+#bottom-text-page{
+  grid-column: 2;
+  grid-row: 3;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+#now{
+  color: #DBFA1D;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px; 
+  border: 5px solid #DBFA1D;
+  border-radius: 31px;
+  padding-left: 15px;
+  padding-right: 15px;  
+  padding-top: 5px;
+  
+}
