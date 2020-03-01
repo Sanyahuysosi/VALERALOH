@@ -5,13 +5,20 @@
   color: #ffffff;
   
 }
-.top-background{
+body{
+  background-color:gray;
+  height: 1002px;
+  width: 1440px;
+  margin: auto;
+  box-shadow: black 0 0 110px 10px;
+}
+.header_container{
   background-image: url(https://cdn.pixabay.com/photo/2014/05/02/21/50/home-office-336377_1280.jpg);
   height: 1002px;
   width: 1440px;
   background-size: cover;
 }
-.volk{
+.header_nav{
   width: 1440px;
   height: 98px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -21,7 +28,7 @@
   
   
 }
-.lolka{
+.nav_links{
   color: aliceblue;
   justify-self: flex-end;
   font-style: normal;
@@ -61,6 +68,10 @@ grid-template-rows: 1fr 1fr 1fr;
   grid-row: 2;
   align-self:flex-start;  
 
+
+}
+.page_text::first-line{
+  color: #EB1919;
 }
 #future{
   color: #DBFA1D;
@@ -88,3 +99,88 @@ grid-template-rows: 1fr 1fr 1fr;
   padding-top: 5px;
   
 }
+/*Section*/
+.under_header_content{
+  width: 1440px;
+  height: 822px;
+  background-color: #ffffff;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  
+  
+
+
+}
+.div1{
+  width: 720px;
+  height: 822px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849821_1280.jpg);
+  
+  grid-column: 1;
+}
+.div2{
+  height: 822px;
+  width: 100%;
+  background-color:#ffffff;
+  grid-column: 2;
+  grid-template-rows: repeat(10,1fr);
+  display: grid;
+ 
+   
+}
+
+p{
+  color: #000;
+}
+.div2_text{
+  grid-row: 3;
+  font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+margin-left: 99px;
+color: #000000;
+
+
+}
+  .Creativity{
+    color: red;
+  }
+  .under_creativity{
+    color: #000;
+    grid-row:4;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 99px;
+
+    
+  }
+  .bottom_text{
+    grid-row: 5;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 99px;
+    margin-right: 73px;
+  }
+  .div3{
+    display: grid;
+    width: 720px;
+    height: 126px;
+    background-color: #E0E0E0;
+    grid-row: 7;
+    padding-left: 99px;
+    padding-right: 73px;
+    grid-template-rows: repeat(3,1fr);
+    
+  }
+  .div3_text{
+    color: #E21919;
+    font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   grid-row: 2;
+  
+  }
