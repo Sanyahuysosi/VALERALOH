@@ -120,17 +120,13 @@ grid-template-rows: 1fr 1fr 1fr;
 }
 .div2{
   height: 822px;
-  width: 100%;
+  width: 720px;
   background-color:#ffffff;
   grid-column: 2;
   grid-template-rows: repeat(10,1fr);
   display: grid;
  
    
-}
-
-p{
-  color: #000;
 }
 .div2_text{
   grid-row: 3;
@@ -145,6 +141,7 @@ color: #000000;
 }
   .Creativity{
     color: red;
+    font-weight: ;
   }
   .under_creativity{
     color: #000;
@@ -169,18 +166,143 @@ color: #000000;
     height: 126px;
     background-color: #E0E0E0;
     grid-row: 7;
-    padding-left: 99px;
-    padding-right: 73px;
     grid-template-rows: repeat(3,1fr);
     
   }
   .div3_text{
     color: #E21919;
     font-style: normal;
-   font-weight: bold;
-   font-size: 18px;
-   line-height: 21px;
-   text-align: center;
-   grid-row: 2;
-  
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    grid-row: 2;
+    padding-left: 99px;
+    padding-right: 99px;
   }
+  /*third page*/
+  .third_gape{
+    background-image: url(https://cdn.pixabay.com/photo/2014/02/01/18/00/money-256314_1280.jpg);
+    width: 1440px;
+    height: 542px;
+    background-size: cover;
+  }
+  .black_background{
+    width: 1440px;
+    height: 542px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: end;
+    align-items: center;  
+  }
+
+
+  .third_page_left{
+   grid-column: 1;
+   height: 100%;
+   width: 100%;
+   display: grid;
+   grid-template-rows: repeat(3,1fr);
+   align-items: center;
+   
+  
+   
+   
+  }
+  .We_work_Creativity{
+    grid-column: 2;
+    font-size: 28px;
+    line-height: 28px;
+    padding-right: 69px;
+    padding-left: 185px;
+    padding-top: 140px;
+ 
+    
+    
+  }
+  .Creativity{
+    color: #E21919;
+    font-size: 28px;
+  }
+  .right_text{
+    grid-column: 2;
+    grid-row: 2;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    padding-right: 69px;
+    padding-left: 185px;
+    
+    
+  }
+  .third_page_right{
+    grid-column: 2;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+    
+    
+  }
+  .img1{
+    height: 100px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .img2{
+    grid-column: 1;
+    grid-row: 2;
+    height: 100px;
+  }
+  .img3{
+    grid-column: 1;
+    grid-row: 3;
+    height: 100px;
+  }
+  .web_design{
+   grid-column: 2;
+   grid-row: 1;
+   padding-left: 49px;
+   padding-right: 237px;
+  }
+.web_develop{
+  grid-column: 2;
+  grid-row: 2;
+}
+.costom_work{
+  grid-column: 2;
+  grid-row: 3;
+
+}
+.web_design::first-line{ 
+  color: #E21919;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+.web_develop::first-line{
+  color: #E21919;
+  font-weight: bold;
+}
+.costom_work::first-line{
+  color: #E21919;
+  font-weight: bold;
+}
+.web_design,.web_develop,.costom_work{
+  font-style: normal;
+font-size: 20px;
+line-height: 24px;
+padding-left: 49px;
+   padding-right: 237px;
+}
+.four_page{
+  width: 1440px;
+  height: 822px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
